@@ -22,10 +22,11 @@ client.on("guildMemberAdd", async member => {
   let WELCOME = new Discord.MessageEmbed()
   .setTitle('New User Has Joined!')
   .setDescription(`Welcome To Our Server ${member.user} we are happy to have you! you are member number ${member.guild.memberCount}!`)
-  .setColor('BLUE')
+  .setColor('BLACK')
   .setThumbnail(client.user.avatarURL)
   .setTimestamp()
+  .setImage("")
   .setFooter('Thanks For Joining!')
   channel.send(WELCOME)
 })
-client.login("BOTTOKENHERE"); // Login with the token make sure to add it when starting
+client.login("ODMzMTAzODEyNDk0NjIyNzgx.YHteYw.voLlr7qyLUyOeXVUq5Y_P_K-MF8"); // Login with the token make sure to add it when starting
